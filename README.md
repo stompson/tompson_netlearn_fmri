@@ -10,9 +10,11 @@ Manuscript under review.*
 ### Code
 * Step0: code with prefix "Step0" is not linked to any raw data to protect participant privacy but shows the steps 
 used to extract the connectivity matrices and behavioral performance.
+* Step0_Preprocessing.ipynb takes the raw 4-D fMRI images and corrects for confounds and normalizes the images to the MNI template
 * Step0_WB_PPI.ipynb takes the preprocessed brain data and computes PPI connectivity scores for each node with every other node
 * Step0_Get_Zscores.ipynb takes the extracted connectivity matrices and computes z-scored node strength metrics for each node
 as well as z-scored connectivity matrices for each node
+
 * Step1_Hub_Analyses.ipynb takes the z-scored connectivity metrics (both node strength scores and connectivity matrices),
 and reproduces the node strength, hub system, and hub-to-hub connectivity analyses
 * Step2_Behavioral_Results.ipynb reproduces the main mixed effect models for the behavioral results as well as 

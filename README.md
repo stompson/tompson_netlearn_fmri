@@ -64,7 +64,7 @@ The packages themselves should be compatible with newer versions, but you might 
 * [seaborn v0.9.0](http://seaborn.pydata.org/)
 * [statsmodels v0.9.0](https://www.statsmodels.org/stable/index.html)
 
-Note: if you run into errors indicating you miss a package, either enter "pip install packagename" in a terminal or - if in the notebook - 
+Note: if you run into errors indicating you are missing a package, either enter "pip install packagename" in a terminal or - if in the notebook - 
 insert a cell and write "!pip install packagename".
 
 #### R
@@ -76,7 +76,7 @@ insert a cell and write "!pip install packagename".
 * [plyr v1.8.4](https://cran.r-project.org/web/packages/plyr/index.html)    
 * [reshape2 v1.4.3](https://cran.r-project.org/web/packages/reshape2/index.html)
 
-Note: if you run into errors indicating you miss a package, enter "install.packages(packagename)" in a new line in RStudio.
+Note: if you run into errors indicating you are missing a package, enter "install.packages(packagename)" in a new line in RStudio.
 
 ***
 2019 | Steven Tompson

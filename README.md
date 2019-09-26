@@ -6,9 +6,9 @@ Manuscript under review.*
 
 [Preprint on PsyArXiv](https://psyarxiv.com/r46gj/)
 
-<img align="right" width=300px src=Figures/fig3.png> 
-
 ***
+
+<img align="right" width=400px src=Figures/fig3.png> 
 
 ### Code
 * [Background Code](code/background_code): code with prefix "Step0" in the "background_code" folder is not linked to 

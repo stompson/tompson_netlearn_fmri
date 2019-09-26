@@ -4,8 +4,7 @@ Data and analysis code for *Tompson, S.H., Kahn, A.E, Falk, E.B., Vettel., J.M.,
 Functional brain network architecture supporting the learning of social networks in humans. 
 Manuscript under review.*
 
-[Preprint on psyarxiv](https://psyarxiv.com/r46gj/)
-
+[Preprint on PsyArXiv](https://psyarxiv.com/r46gj/)
 
 ***
 

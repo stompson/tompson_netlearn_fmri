@@ -6,23 +6,26 @@ Manuscript under review.*
 
 [Preprint on PsyArXiv](https://psyarxiv.com/r46gj/)
 
+
 ***
 
+<img align="right" width=250px src=Figures/fig3.png> 
+
 ### Code
-* [Background Code](https://github.com/stompson/tompson_netlearn_fmri/tree/master/code/background_code): code with prefix "Step0" in the "background_code" folder is not linked to 
+* [Background Code](code/background_code): code with prefix "Step0" in the "background_code" folder is not linked to 
 any raw data to protect participant privacy but shows the steps used to extract the connectivity matrices, 
 behavioral performance, and univariate activation. Note that the script to generate z-scores is also not linked to 
 any data because the null models were too large to store on Github.
-* [1_Hub_Analyses.ipynb](https://github.com/stompson/tompson_netlearn_fmri/blob/master/code/1_Hub_Analyses.ipynb) 
+* [1_Hub_Analyses.ipynb](code/1_Hub_Analyses.ipynb) 
 takes the z-scored connectivity metrics (both node strength scores and connectivity matrices),
 and reproduces the node strength, hub system, and hub-to-hub connectivity analyses
-* [2_Behavioral_Analyses.ipynb](https://github.com/stompson/tompson_netlearn_fmri/blob/master/code/2_Behavioral_Analyses.ipynb) 
+* [2_Behavioral_Analyses.ipynb](code/2_Behavioral_Analyses.ipynb) 
 reproduces the main mixed effect models for the behavioral results as well as 
 the moderating effect of connectivity on behavior.
-* [3_Supplemental_Behavioral_Analyses.ipynb](https://github.com/stompson/tompson_netlearn_fmri/blob/master/code/3_Supplemental_Behavioral_Analyses.ipynb) 
+* [3_Supplemental_Behavioral_Analyses.ipynb](code/3_Supplemental_Behavioral_Analyses.ipynb) 
 reproduces the behavioral analyses from the supplementary results section,
 including generating mixed effects models that include brain activation and head motion as covariates.
-* [4_Supplemental_Brain_Activation_Analyses.ipynb](https://github.com/stompson/tompson_netlearn_fmri/blob/master/code/4_Supplemental_Brain_Activation_Analyses.ipynb) 
+* [4_Supplemental_Brain_Activation_Analyses.ipynb](code/4_Supplemental_Brain_Activation_Analyses.ipynb) 
 reproduces the univariate brain activation analyses from the supplementary results section.
 
 ### Data

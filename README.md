@@ -9,7 +9,7 @@ Manuscript under review.*
 
 ***
 
-<img align="right" width=250px src=Figures/fig3.png> 
+<img align="right" width=300px src=Figures/fig3.png> 
 
 ### Code
 * [Background Code](code/background_code): code with prefix "Step0" in the "background_code" folder is not linked to 

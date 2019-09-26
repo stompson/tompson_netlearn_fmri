@@ -8,25 +8,30 @@ Manuscript under review.*
 ***
 
 ### Code
-* Step0: code with prefix "Step0" is not linked to any raw data to protect participant privacy but shows the steps 
-used to extract the connectivity matrices and behavioral performance.
+* Background Code: code with prefix "Step0" in the "background_code" folder is not linked to 
+any raw data to protect participant privacy but shows the steps used to extract the connectivity matrices, 
+behavioral performance, and univariate activation. Note that the script to generate z-scores is also not linked to 
+any data because the null models were too large to store on Github.
 * Step0_Preprocessing.ipynb takes the raw 4-D fMRI images and corrects for confounds and normalizes the images to the MNI template
 * Step0_WB_PPI.ipynb takes the preprocessed brain data and computes PPI connectivity scores for each node with every other node
 * Step0_Get_Zscores.ipynb takes the extracted connectivity matrices and computes z-scored node strength metrics for each node
 as well as z-scored connectivity matrices for each node
 
-* Step1_Hub_Analyses.ipynb takes the z-scored connectivity metrics (both node strength scores and connectivity matrices),
+* 1_Hub_Analyses.ipynb takes the z-scored connectivity metrics (both node strength scores and connectivity matrices),
 and reproduces the node strength, hub system, and hub-to-hub connectivity analyses
-* Step2_Behavioral_Results.ipynb reproduces the main mixed effect models for the behavioral results as well as 
+* 2_Behavioral_Analyses.ipynb reproduces the main mixed effect models for the behavioral results as well as 
 the moderating effect of connectivity on behavior.
-* Supp_Analyses_Pt1.ipynb reproduces the behavioral analyses from the supplementary results section
-* Supp_Analyses_Pt2.ipynb reproduces the neural GLM analyses from the supplementary results section
+* 3_Supplemental_Behavioral_Analyses.ipynb reproduces the behavioral analyses from the supplementary results section,
+including generating mixed effects models that include brain activation and head motion as covariates.
+* 4_Supplemental_Brain_Activation_Analyses.ipynb reproduces the univariate brain activation analyses from the supplementary results section.
 
 ### Data
 
 * files in ../data/brain_atlas provide information for the combined Schaefer/Harvard-Oxford atlas that was used to define nodes
-* file in ../data/timeseries is just a sample timeseries used to visualize the brain activation for Figure 1
-* files in ../data/supp_analyses/netLearn_glm contain results for the second-level contrasts included in the supplement
+* files in ../data/glm_means contain mean activation for transition versus non-transition trials for each subject in a priori hubs
+* files in ../data/netLearn_glm/secondLevel contain results for the second-level contrasts included in the supplement
+* files in ../data/ppi_zscores contain z-scores and p-values for connectivity metrics
+* files in ../data/subj_data provide information about subjects including trial-level behavior, anonymized scan ID, order info, etc.
 
 ### Dependencies
 * Python 2.7
@@ -53,8 +58,8 @@ The packages themselves should be compatible with newer versions, but you might 
 * [nistats v0.0.1b](https://nistats.github.io/)
 * [numpy v1.16.4](http://www.numpy.org/)
 * [pandas v0.23.0](http://pandas.pydata.org/)
-* [seaborn v0.9.0](http://seaborn.pydata.org/)
 * [scipy v1.1.0](https://www.scipy.org/)
+* [seaborn v0.9.0](http://seaborn.pydata.org/)
 * [statsmodels v0.9.0](https://www.statsmodels.org/stable/index.html)
 
 Note: if you run into errors indicating you miss a package, either enter "pip install packagename" in a terminal or - if in the notebook - 
@@ -72,4 +77,4 @@ insert a cell and write "!pip install packagename".
 Note: if you run into errors indicating you miss a package, enter "install.packages(packagename)" in a new line in RStudio.
 
 ***
-2018 | Steven Tompson
+2019 | Steven Tompson

@@ -12,11 +12,6 @@ Manuscript under review.*
 any raw data to protect participant privacy but shows the steps used to extract the connectivity matrices, 
 behavioral performance, and univariate activation. Note that the script to generate z-scores is also not linked to 
 any data because the null models were too large to store on Github.
-* Step0_Preprocessing.ipynb takes the raw 4-D fMRI images and corrects for confounds and normalizes the images to the MNI template
-* Step0_WB_PPI.ipynb takes the preprocessed brain data and computes PPI connectivity scores for each node with every other node
-* Step0_Get_Zscores.ipynb takes the extracted connectivity matrices and computes z-scored node strength metrics for each node
-as well as z-scored connectivity matrices for each node
-
 * 1_Hub_Analyses.ipynb takes the z-scored connectivity metrics (both node strength scores and connectivity matrices),
 and reproduces the node strength, hub system, and hub-to-hub connectivity analyses
 * 2_Behavioral_Analyses.ipynb reproduces the main mixed effect models for the behavioral results as well as 

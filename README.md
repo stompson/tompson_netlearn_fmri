@@ -1,8 +1,10 @@
 # Analysis for Tompson, Kahn, Falk, Vettel, & Bassett (under review)
 
-Data and analysis code for *2.	Tompson, S.H., Kahn, A.E, Falk, E.B., Vettel., J.M., & Bassett, D.S. 
+Data and analysis code for *Tompson, S.H., Kahn, A.E, Falk, E.B., Vettel., J.M., & Bassett, D.S. 
 Functional brain network architecture supporting the learning of social networks in humans. 
 Manuscript under review.*
+
+[Preprint on psyarxiv](https://psyarxiv.com/r46gj/)
 
 
 ***
